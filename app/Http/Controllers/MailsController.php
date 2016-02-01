@@ -9,12 +9,12 @@ class MailsController extends Controller {
 
 	public function control()
     {
-        dd('Control');
+        return view('tickets/list');
     }
 
     public function closed()
     {
-        dd('Closed');
+        return view('tickets/details');
     }
 
     public function details($id)
