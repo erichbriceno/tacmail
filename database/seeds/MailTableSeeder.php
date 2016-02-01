@@ -22,13 +22,10 @@ class MailTableSeeder extends BaseSeeder {
             'sender_details'    => $faker->company,
             'issue'     =>  $faker->paragraph(2),
             'user_id'   =>  $this->getRandom('User')->id,
-            'dependence_id' => 2
+            'dependence_id' => rand (1 , 16)
 
         ];
     }
 
-    public function run()
-    {
-        $this->createMultiple(10);
-    }
+
 }
