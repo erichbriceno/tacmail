@@ -22,11 +22,11 @@ class CreateUsersTable extends Migration {
             $table->string('email')->unique();
 			$table->string('password', 60);
             $table->boolean('active');
-            /*
+
             $table->integer('dependence_id')->unsigned();
             $table->foreign('dependence_id')->references('id')->on('dependences');
-*/
-			$table->rememberToken();
+
+			//$table->rememberToken();
 			$table->timestamps();
 		});
 	}

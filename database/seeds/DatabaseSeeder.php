@@ -17,27 +17,21 @@ class DatabaseSeeder extends Seeder {
         $this->truncateTables(array(
             'users',
             'senders',
-            /*,
-
-            'historicals',
             'mails',
-            'dependences'
-*/
+            'historicals',
         ));
-
+        $this->call('UserTableSeeder');
         $this->call('SenderTableSeeder');
-        //$this->call('UserTableSeeder');
-        //$this->call('MailTableSeeder');
+        $this->call('MailTableSeeder');
+        $this->call('HistoricalTableSeeder');
 	}
 
     private function truncateTables(array $tables)
     {
         $this->checkForeignKeys(false);
-
         foreach ($tables as $table) {
             DB::table($table)->truncate();
         }
-
         $this->checkForeignKeys(true);
     }
 

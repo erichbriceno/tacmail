@@ -1,7 +1,7 @@
 <?php
 
 use Faker\Generator;
-use TacMail\Entities\User;
+use App\Entities\User;
 
 class UserTableSeeder extends BaseSeeder {
 
@@ -18,7 +18,8 @@ class UserTableSeeder extends BaseSeeder {
             'nick_name'     =>  $faker->userName,
             'email'         =>  $faker->email,
             'password'      =>  bcrypt('1234'),
-            // 'dependence_id' =>  1
+            'active'        =>  true,
+            'dependence_id' =>  2
         ];
 
     }
@@ -32,7 +33,8 @@ class UserTableSeeder extends BaseSeeder {
             'nick_name'     =>  'Beric',
             'email'         =>  'erichbriceno@gmail.com',
             'password'      =>  bcrypt('3r1c4cne'),
-            // 'dependence_id' =>  1
+            'active'        =>  true,
+            'dependence_id' =>  16
         ];
 
         $this->createMultiple(1,$admin);

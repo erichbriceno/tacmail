@@ -1,6 +1,6 @@
 <?php
 use Faker\Generator;
-use TacMail\Entities\Sender;
+use App\Entities\Sender;
 
 /**
  * Created by PhpStorm.
@@ -27,8 +27,6 @@ class SenderTableSeeder extends BaseSeeder {
 
     public function run()
     {
-        //$this->createMultiple(1);
-
         $senders = [
                     'CNE',
                     'PODER JUDICIAL',
@@ -45,7 +43,11 @@ class SenderTableSeeder extends BaseSeeder {
 
         foreach ($senders as $sender)
         {
-            $this->createMultiple(1);
+
+            $data = [
+                'description'   =>  $sender
+            ];
+            $this->createMultiple(1, $data);
         }
 
     }

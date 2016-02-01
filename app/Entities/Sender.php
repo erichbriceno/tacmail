@@ -1,4 +1,4 @@
-<?php namespace TacMail\Entities;
+<?php namespace App\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
