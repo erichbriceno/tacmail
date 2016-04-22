@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace TacMail\Events;
 
 abstract class Event {
 

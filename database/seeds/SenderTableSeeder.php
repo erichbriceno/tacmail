@@ -1,6 +1,6 @@
 <?php
 use Faker\Generator;
-use App\Entities\Sender;
+use TacMail\Entities\Sender;
 
 /**
  * Created by PhpStorm.

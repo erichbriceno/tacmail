@@ -1,7 +1,7 @@
 <?php
 
 use Faker\Generator;
-use App\Entities\User;
+use TacMail\Entities\User;
 
 class UserTableSeeder extends BaseSeeder {
 

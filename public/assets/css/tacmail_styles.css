@@ -1,0 +1,272 @@
+/* HEADER */
+.logo img {
+	height: 50px;
+}
+.navbar {
+	margin-bottom:0;
+	font-size:12px;
+}
+.dropdown-menu{
+	font-size:12px;
+}
+
+.jumbotron1 {
+	height:90px;
+	background:#428BCA;
+	color:#fff;
+	padding-left:35px;
+	padding-top:5px;
+}
+
+.jumbotron1 .titulo-blog {
+	font-size:50px;
+	margin: 0;
+	text-shadow: 1px 2px #999;
+}
+
+.jumbotron1  .container1{
+	margin-left:10px;
+	height:70px;
+}
+.breadcrumb{
+	font-size:10px;
+}
+
+.container2 {
+	padding: 20px;
+	height: 470px;
+}
+
+.containerTable{
+	clear: both;
+	border: 1px solid #963;
+	height: 411px;
+	width:	960px; 
+}
+.container {
+	margin-bottom:20px;
+}
+
+.form-group {
+	margin-bottom:5px;
+}
+/************************ para las formas */
+
+.list-group-item{
+	padding: 0px;
+	padding-left: 10px;
+}
+.list-group-item .label{
+	margin:1px;
+	padding:4px;
+	background:#428BCA;
+}
+.list-group-item-heading{
+	margin:0px;
+	margin-top:6px;
+	font-weight: bold;
+}
+
+.mright{
+	padding:0px;
+	padding-right:10px;
+}
+.mleft{
+	padding:0px;
+}
+.btn{
+	background:#428BCA;
+	color:#fff;
+	padding:3px 10px;
+}
+.btn:hover{
+	background:#286090;
+	color:#fff;
+}
+
+
+/************************ Articulos en Consultas */
+
+.post img{
+	height: 70px;
+}
+
+.post {
+	border-style: solid;
+    border-width: 1px;
+	padding: 10px;
+	border-radius:5px;
+	border-color: #428BCA;
+	margin-bottom: 2px;
+}
+.post:hover{
+	background:#F5F5F5;
+	box-shadow: 1px 1px;
+}
+.post-title{
+	color: #428BCA;
+	text-shadow: 1px 1px;
+}
+.panel-body img{
+	height: 70px;
+	float: right;
+}
+.btn1{
+	
+	background:#F5F5F5;
+	display: inline-block;
+	padding:0px;
+	margin:0px;
+	border-radius: 0;
+	width: 100%;
+	white-space: normal;
+	border: 1px solid #428BCA;
+	margin-bottom: 0;
+	cursor: pointer;
+	float:left;
+}
+
+.btn1:hover{
+	background:#D8D8D8;
+}
+
+.boxin1{
+	display: inline-block;
+	padding:10px;
+	width:12%;
+	margin:0;
+	text-align:initial;
+	vertical-align: top;
+	color: #000;
+}
+.boxin2{
+	display: inline-block;
+	padding:10px;
+	width:50%;
+	margin:0;
+	text-align:initial;
+	vertical-align: top;
+	color: #000;
+}
+
+.panel-default .panel-heading  {
+  background-color: #428BCA;
+  text-align:center;
+  color: #FFF;
+  padding: 0px 0px;
+}
+
+.panel-default .panel-heading  a{
+  text-decoration: none;
+  font-weight: bold;			
+  
+}
+
+.panel-title{
+	padding: 5px;
+}
+
+.post a{
+	text-decoration: none;
+}
+.post a:hover{
+	color: #000;
+	box-shadow: 1px 1px;
+}
+
+/************************ Footer */
+footer{
+	background: #428BCA;
+	width:100%;
+	height:20px;
+	position: fixed;
+	bottom:0px;
+	text-align: center;
+	color: #fff;
+	padding: 4px;
+	font-size:11px;
+}
+/************************ tablas */
+/* para la tabla 1 */
+.fixedHeaderTop, .fixedHeader {
+	font-size:11px;
+	color:#fff;
+	vertical-align: center;
+	display: block;
+	background: #428BCA;
+	border-collapse: collapse; 
+}
+/* para la tabla 2 */
+.scrollContent {
+	font-size:10px;
+	height:380px;
+	display: block;
+	overflow: auto;
+}
+
+/* Para los elementos de la segunda cabecera de la tabla */
+.fixedHeader th {
+	width: 80px;
+	text-align:center;	
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.fixedHeader th+th {
+	width: 358px;
+}
+.fixedHeader th+th+th{
+	width: 160px;
+}
+.fixedHeader th+th+th+th{
+	width: 140px;
+}
+.fixedHeader th+th+th+th+th{
+	width: 140px;
+}
+.fixedHeader th+th+th+th+th+th{
+	width: 80px;
+}
+
+/* Para los elementos del contenido de la tabla */
+.scrollContent td.centre {
+	text-align:center;
+}
+.scrollContent td.conten {
+	padding:4px;
+}
+
+.scrollContent td {
+	width: 80px;
+}
+.scrollContent td+td {
+	width: 360px;
+}
+.scrollContent td+td+td{
+	width: 160px;
+}
+.scrollContent td+td+td+td{
+	width: 140px;
+}
+.scrollContent td+td+td+td+td{
+	width: 140px;
+}
+.scrollContent td+td+td+td+td+td{
+	width: 64px;
+}
+
+/* Para los textos */
+.list-group-item-text p{
+	margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

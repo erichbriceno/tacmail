@@ -1,7 +1,7 @@
 <?php
 
 use Faker\Generator;
-use App\Entities\Historical;
+use TacMail\Entities\Historical;
 
 class HistoricalTableSeeder extends BaseSeeder {
 
@@ -20,7 +20,6 @@ class HistoricalTableSeeder extends BaseSeeder {
             'action'    =>  $faker->randomElement(['create', 'refer', 'comment', 'delete', 'block', 'close']),
             'comment'   =>  $faker->paragraph(1),
             'refer_user_id' => $this->getRandom('User')->id
-
         ];
     }
 

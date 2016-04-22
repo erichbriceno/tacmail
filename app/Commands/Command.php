@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace TacMail\Commands;
 
 abstract class Command {
 

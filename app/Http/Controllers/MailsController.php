@@ -1,7 +1,7 @@
-<?php namespace App\Http\Controllers;
+<?php namespace TacMail\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use TacMail\Http\Requests;
+use TacMail\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
@@ -9,12 +9,23 @@ class MailsController extends Controller {
 
 	public function control()
     {
-        return view('tickets/list');
+        return view('mails/control');
     }
 
-    public function closed()
+    public function upload()
     {
-        return view('tickets/details');
+        return view('mails/upload');
+    }
+
+
+    public function querySuitcases()
+    {
+        return view('mails/querySuitcases');
+    }
+
+    public function queryDocs()
+    {
+        return view('mails/queryDocs');
     }
 
     public function details($id)
