@@ -196,7 +196,7 @@
 
 	<!-- Aqui va el footer -->
 
-	<script src="http://tacmail/public/assets/js/jquery.js"></script>
-	<script src="http://tacmail/public/assets/js/bootstrap.min.js"></script>
+	<script src="http://tacmail/assets/js/jquery.js"></script>
+	<script src="http://tacmail/assets/js/bootstrap.min.js"></script>
 </body>
 </html>

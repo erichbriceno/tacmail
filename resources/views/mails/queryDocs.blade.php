@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>TACMAIL - CosulDocs</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/tacmail_styles.css">
+	<link href="http://tacmail/assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://tacmail/assets/css/tacmail_styles.css" rel="stylesheet">
 </head>
 <body>
 
@@ -21,7 +21,7 @@
 					</button>
 					<div class="logo">
 						<a href="http://www.cne.gob.ve">
-							<img src="images/logo-sm-CNE.png" class="img-responsive" alt="Logo CNE">
+							<img src="http://tacmail/assets/img/logo-sm-CNE.png" class="img-responsive" alt="Logo CNE">
 						</a>
 					</div>
 					
@@ -104,7 +104,8 @@
 			
 				<article class="post clearfix">
 					<div class="col-md-12">
-						<img class="img-responsive pull-left" src="images/suitcase.png" alt="suitcase-consult">
+
+						<img class="img-responsive pull-left" src="http://tacmail/assets/suitcase.png" alt="suitcase-consult">
 						<h2 class="post-title pull-right"># 001200</h2>
 						<p>26 de Enero de 2016<br>MINISTERIO PUBLICO<br>PRIMERO PENAL EN LOS ADMINISTRATIVO</p>
 					</div>
@@ -200,7 +201,7 @@
 
 	<!-- Aqui va el footer -->
 
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="http://tacmail/assets/js/jquery.js"></script>
+	<script src="http://tacmail/assets/js/bootstrap.min.js"></script>
 </body>
 </html>
