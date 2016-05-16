@@ -19,12 +19,18 @@ class DatabaseSeeder extends Seeder {
             'senders',
             'mails',
             'historicals',
+            'dependences',
         ));
-        $this->call('UserTableSeeder');
+
+
+        $this->call('DependenceTableSeeder');
         $this->call('SenderTableSeeder');
+        $this->call('UserTableSeeder');
         $this->call('MailTableSeeder');
         $this->call('HistoricalTableSeeder');
-	}
+
+
+    }
 
     private function truncateTables(array $tables)
     {

@@ -16,6 +16,7 @@ class CreateDependencesTable extends Migration {
 		{
 			$table->increments('id');
             $table->string('description');
+			$table->boolean('active');
 			$table->timestamps();
 		});
 	}
