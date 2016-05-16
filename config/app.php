@@ -137,6 +137,11 @@ return [
 		'Illuminate\View\ViewServiceProvider',
 
 		/*
+		 * Vendor Service Providers...
+		 */
+		'Collective\Html\HtmlServiceProvider',
+
+		/*
 		 * Application Service Providers...
 		 */
 		'TacMail\Providers\AppServiceProvider',
@@ -144,6 +149,7 @@ return [
 		'TacMail\Providers\ConfigServiceProvider',
 		'TacMail\Providers\EventServiceProvider',
 		'TacMail\Providers\RouteServiceProvider',
+
 
 	],
 
@@ -192,6 +198,12 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+		/*
+		 * Application Service Providers...
+		 */
+		'Form' => 'Collective\Html\FormFacade',
+		'Html' => 'Collective\Html\HtmlFacade',
 
 	],
 
