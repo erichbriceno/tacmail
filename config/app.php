@@ -138,9 +138,8 @@ return [
 
 		/*
 		 * Vendor Service Providers...
-		 * 'Collective\Html\HtmlServiceProvider',
 		 */
-		
+		'Collective\Html\HtmlServiceProvider',
 
 		/*
 		 * Application Service Providers...
@@ -201,11 +200,10 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 
 		/*
-		 * Application Service Providers...
-		 * 'Form' => 'Collective\Html\FormFacade',
-		 * 'Html' => 'Collective\Html\HtmlFacade',
+		 * Vendor Aliases...
 		 */
-		
+		'Form' => 'Collective\Html\FormFacade',
+		'Html' => 'Collective\Html\HtmlFacade',
 
 	],
 
