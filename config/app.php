@@ -138,8 +138,9 @@ return [
 
 		/*
 		 * Vendor Service Providers...
+		 * 'Collective\Html\HtmlServiceProvider',
 		 */
-		'Collective\Html\HtmlServiceProvider',
+		
 
 		/*
 		 * Application Service Providers...
@@ -201,9 +202,10 @@ return [
 
 		/*
 		 * Application Service Providers...
+		 * 'Form' => 'Collective\Html\FormFacade',
+		 * 'Html' => 'Collective\Html\HtmlFacade',
 		 */
-		'Form' => 'Collective\Html\FormFacade',
-		'Html' => 'Collective\Html\HtmlFacade',
+		
 
 	],
 

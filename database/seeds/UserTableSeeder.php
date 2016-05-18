@@ -34,7 +34,7 @@ class UserTableSeeder extends BaseSeeder {
             'email'         =>  'erichbriceno@gmail.com',
             'password'      =>  bcrypt('3r1c4cne'),
             'active'        =>  true,
-            'dependence_id' =>  15
+            'dependence_id' =>  2
         ];
 
         $this->createMultiple(1,$admin);
