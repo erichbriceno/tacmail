@@ -5,9 +5,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>TACMAIL</title>
 
-    {!! Html::style('/assets/css/bootstrap.min.css') !!}}
-    {!! Html::style('/assets/css/tacmail_styles.css') !!}}
-
+    {!! Html::style('/assets/css/bootstrap.min.css') !!}
+	{!! Html::style('/assets/css/tacmail_styles.css') !!}
 
 
 </head>
