@@ -136,10 +136,7 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 
-		/*
-		 * Vendor Service Providers...
-		 */
-		'Collective\Html\HtmlServiceProvider',
+
 
 		/*
 		 * Application Service Providers...
@@ -149,6 +146,7 @@ return [
 		'TacMail\Providers\ConfigServiceProvider',
 		'TacMail\Providers\EventServiceProvider',
 		'TacMail\Providers\RouteServiceProvider',
+		'TacMail\Providers\HtmlServiceProvider',
 
 
 	],

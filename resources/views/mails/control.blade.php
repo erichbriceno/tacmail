@@ -2,7 +2,7 @@
 
 @section('content')
 
-	<section class="container">
+	<section class="container xbody">
 	
 		<section class="main container col-md-9">
 			<h4>Correspondencias Recientes</h4>
