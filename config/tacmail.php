@@ -7,5 +7,4 @@ return array(
         'mails.upload'          =>  'Carga',
         'mails.queryDocs'       =>  'Documentos'
     )
-
 );

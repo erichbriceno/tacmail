@@ -25,6 +25,11 @@ Route::get('/queryDocs', [
     'uses'	=> 'MailsController@queryDocs'
 ]);
 
+Route::get('/stats', [
+		'as'	=> 'mails.stats',
+		'uses'	=> 'MailsController@stats'
+]);
+
 
 
 Route::get('/mail/{id}', [

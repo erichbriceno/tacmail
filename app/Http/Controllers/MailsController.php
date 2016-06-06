@@ -32,4 +32,9 @@ class MailsController extends Controller {
     {
         dd('mail: '. $id);
     }
+
+    public function stats()
+    {
+        dd("Stats");
+    }
 }
