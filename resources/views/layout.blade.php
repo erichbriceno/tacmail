@@ -33,7 +33,8 @@
 				<!-- Inicia Menu -->
 				<div class="collapse navbar-collapse" id="navagacion-fm">
 
-					{!! Html::menu() !!}
+					{!! Html::menu('tacmail.menu') !!}
+
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Erich Briceño <span class="badge">3</span>

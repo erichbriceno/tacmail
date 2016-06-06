@@ -10,7 +10,7 @@
 				<article class="post clearfix">
 					<div class="col-md-12">
 
-						<img class="img-responsive pull-left" src="http://tacmail/assets/suitcase.png" alt="suitcase-consult">
+						<img class="img-responsive pull-left" src="http://tacmail/assets/img/suitcase.png" alt="suitcase-consult">
 						<h2 class="post-title pull-right"># 001200</h2>
 						<p>26 de Enero de 2016<br>MINISTERIO PUBLICO<br>PRIMERO PENAL EN LOS ADMINISTRATIVO</p>
 					</div>
@@ -39,7 +39,7 @@
 				<!-- ***************** -->
 				<article class="post clearfix">
 					<div class="col-md-12">
-						<img class="img-responsive pull-left" src="images/suitcase.png" alt="suitcase-consult">
+						<img class="img-responsive pull-left" src="http://tacmail/assets/img/suitcase.png" alt="suitcase-consult">
 						<h2 class="post-title pull-right"># 001200</h2>
 						<p>26 de Enero de 2016<br>MINISTERIO PUBLICO<br>PRIMERO PENAL EN LOS ADMINISTRATIVO</p>
 					</div>
